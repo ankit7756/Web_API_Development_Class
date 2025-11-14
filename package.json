@@ -1,0 +1,19 @@
+{
+  "name": "js-revision",
+  "version": "1.0.0",
+  "main": "class1.js",
+  "scripts": {
+    "start-class1": "node class1.js",
+    "start-class2": "node class2.js",
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "type": "module"
+}
