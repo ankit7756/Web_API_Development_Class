@@ -7,15 +7,16 @@ const firstName = "Ankit" // const cannot be reassigned / changed
 
 let lastname = "Rai" // let cannot be reassigned / changed
 // let lastName = "Sharma" // cannot be reassigned
-lastName = "Sharma" // csn be changed
+lastName = "Sharma" // can be changed
 
-var age = 25 // var cannot be reassigned / changed
+var age = 25 // var can be reassigned / changed
 var age = 30 // can be reassigned
 age = 32 // can be changed
 
 // scope of variables { }
 
 console.log(continent) // undefined due to hoisting
+// hoisting means variable declaration is moved to the top of the scope during compile time
 
 if (true) {
     const city = "Kathmandu" // block scope
